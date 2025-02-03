@@ -1,5 +1,5 @@
 # A2
-Members : Emil Meri, Saskia Heinemann, Sofie Swagemakers Herou
+Members : Emil, Sofie, Eva
 
 This project is for Assignment 2, focusing on building a Stuff Lending System using a model-view-controller (MVC) architecture. The system allows users to manage members, items, contracts, and time-related actions through a console-based interface. The project is implemented in Java, using Gradle for build.
 
