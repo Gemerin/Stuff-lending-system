@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.38">
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\controller\App.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\controller\ContractController.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\controller\ItemController.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\controller\MainController.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\controller\MemberController.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\controller\TimeController.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\model\domain\Contract.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\model\domain\Item.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\model\domain\Member.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\model\persistence\HardCode.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\model\persistence\Persistence.java">
+</file>
+<file name="C:\Users\Saskia\Skrivbord\Webprogram LNU\607\a2\app\src\main\java\view\View.java">
+</file>
+</checkstyle>

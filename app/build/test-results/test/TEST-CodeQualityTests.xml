@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeQualityTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-21T21:02:24" hostname="LAPTOP-UD5J0QG3" time="0.086">
+  <properties/>
+  <testcase name="codeQuality()" classname="CodeQualityTests" time="0.086"/>
+  <system-out><![CDATA[0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/App.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/ContractController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/ItemController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/MainController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/MemberController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/TimeController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Contract.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Item.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Member.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/persistence/HardCode.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/persistence/Persistence.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/view/View.java
+1 FindBugs Issues in controller/ContractController.java
+text:lines: 23-104 
+new controller.ContractController(Persistence) may expose internal representation by storing an 
+  externally mutable object into ContractController.persistence 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+1 FindBugs Issues in controller/ItemController.java
+text:lines: 22-156 
+new controller.ItemController(Persistence) may expose internal representation by storing an 
+  externally mutable object into ItemController.persistence 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+1 FindBugs Issues in controller/MemberController.java
+text:lines: 22-230 
+new controller.MemberController(Persistence) may expose internal representation by storing an 
+  externally mutable object into MemberController.persistence 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

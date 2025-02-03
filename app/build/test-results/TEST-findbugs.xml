@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.spotbugs" time="0" tests="3" errors="3" name="findbugs">
+<testcase time="0" name="controller/ContractController.java" classname="FindBugs Issues">
+<failure message="issues" ><![CDATA[lines: 23-104 
+new controller.ContractController(Persistence) may expose internal 
+  representation by storing an externally mutable object into 
+  ContractController.persistence 
+May expose internal representation by incorporating reference to mutable 
+  object 
+This code stores a reference to an externally mutable object into the 
+  internal representation of the object. If instances are accessed by 
+  untrusted code, and unchecked changes to the mutable object would 
+  compromise security or other important properties, you will need to do 
+  something different. Storing a copy of the object is better approach in 
+  many situations.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="controller/ItemController.java" classname="FindBugs Issues">
+<failure message="issues" ><![CDATA[lines: 22-156 
+new controller.ItemController(Persistence) may expose internal 
+  representation by storing an externally mutable object into 
+  ItemController.persistence 
+May expose internal representation by incorporating reference to mutable 
+  object 
+This code stores a reference to an externally mutable object into the 
+  internal representation of the object. If instances are accessed by 
+  untrusted code, and unchecked changes to the mutable object would 
+  compromise security or other important properties, you will need to do 
+  something different. Storing a copy of the object is better approach in 
+  many situations.
+----------------
+]]></failure>
+</testcase><testcase time="0" name="controller/MemberController.java" classname="FindBugs Issues">
+<failure message="issues" ><![CDATA[lines: 22-230 
+new controller.MemberController(Persistence) may expose internal 
+  representation by storing an externally mutable object into 
+  MemberController.persistence 
+May expose internal representation by incorporating reference to mutable 
+  object 
+This code stores a reference to an externally mutable object into the 
+  internal representation of the object. If instances are accessed by 
+  untrusted code, and unchecked changes to the mutable object would 
+  compromise security or other important properties, you will need to do 
+  something different. Storing a copy of the object is better approach in 
+  many situations.
+----------------
+]]></failure>
+</testcase></testsuite>

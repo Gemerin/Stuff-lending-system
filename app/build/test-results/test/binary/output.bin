@@ -1,0 +1,42 @@
+n0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/App.java
+}0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/ContractController.java
+y0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/ItemController.java
+y0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/MainController.java
+{0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/MemberController.java
+y0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/TimeController.java
+u0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Contract.java
+q0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Item.java
+s0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Member.java
+z0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/persistence/HardCode.java
+}0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/persistence/Persistence.java
+i0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/view/View.java
+91 FindBugs Issues in controller/ContractController.java
+text:lines: 23-104 
+bnew controller.ContractController(Persistence) may expose internal representation by storing an 
+B  externally mutable object into ContractController.persistence 
+RMay expose internal representation by incorporating reference to mutable object 
+gThis code stores a reference to an externally mutable object into the internal representation of the 
+e  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+f  would compromise security or other important properties, you will need to do something different. 
+G  Storing a copy of the object is better approach in many situations.
+
+51 FindBugs Issues in controller/ItemController.java
+text:lines: 22-156 
+^new controller.ItemController(Persistence) may expose internal representation by storing an 
+>  externally mutable object into ItemController.persistence 
+RMay expose internal representation by incorporating reference to mutable object 
+gThis code stores a reference to an externally mutable object into the internal representation of the 
+e  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+f  would compromise security or other important properties, you will need to do something different. 
+G  Storing a copy of the object is better approach in many situations.
+
+71 FindBugs Issues in controller/MemberController.java
+text:lines: 22-230 
+`new controller.MemberController(Persistence) may expose internal representation by storing an 
+@  externally mutable object into MemberController.persistence 
+RMay expose internal representation by incorporating reference to mutable object 
+gThis code stores a reference to an externally mutable object into the internal representation of the 
+e  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+f  would compromise security or other important properties, you will need to do something different. 
+G  Storing a copy of the object is better approach in many situations.
+

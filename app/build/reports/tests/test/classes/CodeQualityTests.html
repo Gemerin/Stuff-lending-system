@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class CodeQualityTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class CodeQualityTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; CodeQualityTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.086s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">codeQuality()</td>
+<td class="success">0.086s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/App.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/ContractController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/ItemController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/MainController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/MemberController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/controller/TimeController.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Contract.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Item.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/domain/Member.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/persistence/HardCode.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/model/persistence/Persistence.java
+0 CheckStyle Issues in C:/Users/Saskia/Skrivbord/Webprogram LNU/607/a2/app/src/main/java/view/View.java
+1 FindBugs Issues in controller/ContractController.java
+text:lines: 23-104 
+new controller.ContractController(Persistence) may expose internal representation by storing an 
+  externally mutable object into ContractController.persistence 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+1 FindBugs Issues in controller/ItemController.java
+text:lines: 22-156 
+new controller.ItemController(Persistence) may expose internal representation by storing an 
+  externally mutable object into ItemController.persistence 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+1 FindBugs Issues in controller/MemberController.java
+text:lines: 22-230 
+new controller.MemberController(Persistence) may expose internal representation by storing an 
+  externally mutable object into MemberController.persistence 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 21 okt. 2024 23:02:24</p>
+</div>
+</div>
+</body>
+</html>
